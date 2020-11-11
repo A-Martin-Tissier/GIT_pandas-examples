@@ -38,7 +38,7 @@ print('\n==================================================================\n')
 
 
 # Example 3: Info about specific position (ejem: position 1000)
-info1000 = merge_ratings.ix[1000]
+info1000 = merge_ratings.iloc[1000]
 print('Info of 1000 position of the table: \n%s' % info1000[:10])
 print('\n==================================================================\n')
 
